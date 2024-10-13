@@ -1,8 +1,13 @@
+// Nama: Ayyub Abdurrahman
+// Kelas: C
+// NIM: 2200016092
+
 const sinon = require('sinon');
 const { expect } = require('chai');
 const Service = require('../src/service');
 const Repository = require('../src/repository');
 const SecondaryRepository = require('../src/secondaryRepository');
+
 
 describe('Service Integration Tests with multiple stubs', () => {
     let service;
